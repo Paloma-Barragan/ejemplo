@@ -32,7 +32,7 @@ function classifyImage(img) {
 
 function handleFile(file) {
   if (file.type === 'image') { // Verifica que el archivo sea una imagen
-    let img = createImg(URL.createObjectURL(file.data), ''); // Crea un elemento de imagen y carga el archivo
+    let img = createImg(file.data, ''); // Crea un elemento de imagen y carga el archivo
     img.hide(); // Oculta la imagen original
     classifyImage(img); // Clasifica la imagen
   } else {
