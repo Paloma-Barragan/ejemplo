@@ -10,7 +10,7 @@ function preload() {
 
 function setup() {
   fileInput = createFileInput(handleFile); // Crea un input de archivo y llama a la función handleFile cuando se selecciona un archivo
-  createCanvas(1200, 900); // Crea un canvas de 640x480 píxeles
+  createCanvas(900,900 ); // Crea un canvas de 640x480 píxeles
 }
 
 function classifyImage() {
